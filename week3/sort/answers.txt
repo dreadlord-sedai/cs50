@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The Best case scenario for bubble sort is a sorted array. This program took the lowest time to sort the sorted array compared to random and reversed.
+
+sort2 uses: Merge sort
+
+How do you know?: Merge sort is the fastest of the 3 types of sorting algorithms and this program was the fastest to sort.
+
+sort3 uses: Selection sort
+
+How do you know?: The worst case scenario and the best case for selection sort is pretty mutch the same and this program took around the same time to sort both the sorted and reversed lists.
