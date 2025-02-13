@@ -1,0 +1,9 @@
+1. Their audio aura could be calculated by the average energy, valence, and danceability of the songs.
+If these 3 metrics have a high value the listener’s audio aura could be characterized as vibrant and cheerful.
+However if the values are lower, their aura could be melancholic or chill.
+
+
+2.The aura might not be a very accurate representative of the listner because of reasons like preference for a genre, bias towards a song
+or tendency to listen to culturuly trending songs.
+
+Tracking the listners song preference over time and grouping songs of various genres together might be a better way to calculate the aura.
