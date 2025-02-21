@@ -1,0 +1,26 @@
+Specification for Website
+
+HTML Tags Used:
+1. <html> - The root element of the document.
+2. <head> - Contains metadata like character set and title.
+3. <body> - Contains the content of the page.
+4. <title> - Specifies the title of the page.
+5. <nav> - Navigation bar element for links.
+6. <ul> - Unordered list to display navigation links.
+7. <li> - List item to define each navigation link.
+8. <a> - Anchor tag to create hyperlinks.
+9. <div> - Division tag for grouping content.
+10. <p> - Paragraph tag used for text content.
+
+CSS Properties Used:
+1. font-size - Sets the font size of the text.
+2. margin - Defines space around elements.
+3. padding - Adds space inside elements.
+4. background-color - Specifies the background color of elements.
+5. color - Defines the text color of the elements.
+
+JavaScript Integration:
+JavaScript is used to add interactivity to the website. For example, an alert is triggered when the contact form is submitted. This enhances user experience and interactivity by providing instant feedback to users.
+
+Bootstrap Features Integrated:
+Bootstrap's navigation bar and grid system are used to create a responsive layout. The navigation bar adjusts automatically on mobile devices, and Bootstrap's built-in classes help style the navigation links, buttons, and form elements for a better user experience.
