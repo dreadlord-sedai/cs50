@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Quote
+{% endblock %}
+
+{% block main %}
+    <div class="container">
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Stock</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ stock.name }} ({{ stock.symbol }})</td>
+                    <td>${{ stock.price }}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Stock: <strong>{{ stock.name }}</strong> ({{ stock.symbol }})</p>
+        <p>Current Price: <strong>${{ stock.price }}</strong></p>
+
+        <a href="/quote" class="btn btn-primary mt-3">Look up another stock</a>
+    </div>
+{% endblock %}
+
